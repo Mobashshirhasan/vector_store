@@ -8,7 +8,7 @@ class VectorStore:
 
     def add_vector(self, vector_id, vector):
         """
-        Add a vector to the store.
+        Add a vector to the store..
 
         Args:
             vector_id (str or int): A unique identifier for the vector.
