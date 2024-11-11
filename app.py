@@ -35,7 +35,7 @@ for sentence, vector in sentence_vectors.items():
     vector_store.add_vector(sentence, vector)
 
 # Searching for Similarity
-query_sentence = "Mango is the best fruit "
+query_sentence = "Mango is the best fruit"
 query_vector = np.zeros(len(vocabulary))
 query_tokens = query_sentence.lower().split()
 for token in query_tokens:
