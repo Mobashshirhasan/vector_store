@@ -6,7 +6,7 @@ vector_store = VectorStore()
 
 # Define your sentences
 sentences = [
-    "I eat mango",
+    "I eat mango ",
     "mango is my favorite fruit",
     "mango, apple, oranges are fruits",
     "fruits are good for health",
