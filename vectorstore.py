@@ -11,7 +11,7 @@ class VectorStore:
         Add a vector to the store..
 
         Args:
-            vector_id (str or int): A unique identifier for the vector..
+            vector_id (str or int): A unique identifier for the vector.
             vector (numpy.ndarray): The vector data to be stored.
         """
         self.vector_data[vector_id] = vector
