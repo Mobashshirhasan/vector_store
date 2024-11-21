@@ -19,7 +19,7 @@ class VectorStore:
 
     def get_vector(self, vector_id):
         """
-        Retrieve a vector from the store.
+        Retrieve a vector from the store .
 
         Args:
             vector_id (str or int): The identifier of the vector to retrieve.
