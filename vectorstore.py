@@ -4,7 +4,7 @@ import numpy as np
 class VectorStore:
     def __init__(self):
         self.vector_data = {}  # A dictionary to store vectors
-        self.vector_index = {}  # An indexing structure for retrieval
+        self.vector_index = {}  #  An indexing structure for retrieval
 
     def add_vector(self, vector_id, vector):
         """
